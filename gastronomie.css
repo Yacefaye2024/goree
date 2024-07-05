@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and(max-width:1500px) {
+    .menu{
+        width: auto;
+    }
+    .nav{
+        width:auto;
+    }
+}
+body{
+    background-image: url(img/gorée\ crepuscule.jpg); 
+    -webkit-background-size:"cover";
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-top: -8vh;
+}
+.menu{
+    text-align: center;
+    margin-left: 550px;
+    padding-left: 30px;
+    width: 200px;
+}
+.menu ul{
+list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    background-color: maroon;
+    width: 150px;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+img{
+    width: 55px;
+    height: 50px;
+    display: flex;
+}
+.snlogo{
+    width: 100px;
+    margin-left: 75vh;
+}
+
+        /*gastronomie css*/
+#gastro{
+    margin-top: 8vh;
+}
+.resto1{
+    width: 60vh;
+    margin-left: 65vh;
+}
+.resto1 h2{
+    background-color: azure;
+    color: mediumblue;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 45vh;
+    height: 3vh;
+    text-align: center;
+    margin-left: 8vh;
+    display: inline-block;
+}
+.resto1 h3{
+    background-color: aqua;
+    color: mediumblue;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 45vh;
+    text-align: center;
+    margin-left: 7vh;
+}
+.resto1 img{
+    border-radius: 1vh;
+    width: 50vh;
+    height: 40vh;
+    margin-top: 2vh;
+    display: inline-block; 
+    margin-left: 5vh;
+}
+.resto2{
+    width: 70vh;
+    margin-top: 2vh;
+    margin-left: 63vh;
+}
+.resto2 h2{
+    background-color: azure;
+    color: mediumblue;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50vh;
+    height: 3vh;
+    text-align: center;
+    margin-left: 5vh;
+    display: inline-block;
+}
+.resto2 img{
+    width: 50vh;
+    height: 40vh;
+    margin-top: 2vh;
+    display: inline-block; 
+    border-radius: 1vh;   
+    margin-left: 5vh;  
+}
+.resto2 a{
+    color:red;
+    background-color: yellow;
+    height: 1vh;
+    width: 5vh;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 1vh;
+    padding-right: 2vh;
+    padding-left: 1vh;
+   text-align: center;
+}
+ /*footer css*/
+#footer{
+    background-color: black;
+    height: 15vh;
+    position: relative;
+    margin-top: 2vh;
+}
+#imag{
+    height: 15vh;
+    display: flex;
+    gap: 5vh;
+}
+#imag img{
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 2vh;
+    gap: 5vh;
+}
+#imag h3{
+    width: 100vh;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 40vh;
+    padding-top: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: Arial Bold, sans-serif;
+    text-align: center;
+}
+#imag h4{
+    width: 100vh;
+    height: 5vh;
+    margin-top: 4vh;
+    margin-left: 40vh;
+    padding-top: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: Arial Bold, sans-serif;
+    text-align: center;
+}

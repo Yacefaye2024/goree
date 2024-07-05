@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and(max-width:1500px) {
+    .menu{
+        width: auto;
+    }
+    .nav{
+        width:auto;
+    }
+}
+body{
+    background-image: url(img/gorée\ crepuscule.jpg); 
+    -webkit-background-size:"cover";
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    margin-top: -8vh;
+}
+.menu{
+    text-align: center;
+    margin-left: 550px;
+    padding-left: 30px;
+    width: 200px;
+}
+.menu ul{
+list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    background-color: maroon;
+    width: 150px;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+img{
+    width: 55px;
+    height: 50px;
+    display: flex;
+}
+.snlogo{
+    width: 100px;
+    margin-left: 75vh;
+}
+            /*Loisirs css*/
+#gorée4{
+    width: 15vh;
+    margin-top: 8vh;
+    margin-left: 90vh;
+}
+#gorée4 img{
+    width: 100px;
+    height: 100px;
+}
+.text{
+    display:flex;
+    width: 120vh;
+    height: 10vh;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    gap: 1vh;
+}
+.text h5{
+    background-color: rgba(255, 255, 255, 0.284);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumblue;
+    text-align: center;
+    display: inline-block; 
+    padding-left: 2vh;
+    margin-left: 51vh;
+    width: 15vh;
+    line-height: 10vh;
+}
+.text h6{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumblue;
+    text-align: center;
+    display: inline-block;
+    width: 55vh;
+    text-align: justify;
+}
+.plage{
+    width: 50vh;
+    height: 40vh;
+    margin-top: -20vh;
+    margin-left: 20vh;
+}
+.text1{
+    display:flex;
+    width: 150vh;
+    height: 10vh;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    gap: 1vh;
+}
+.text1 h5{
+    background-color: rgba(255, 255, 255, 0.649);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumblue;
+    text-align: center;
+    display: inline-block; 
+    padding-left: 2vh;
+    margin-left: 51vh;
+    width: 20vh;
+    line-height: 10vh;
+}
+.text1 h6{
+    background-color: rgba(240, 255, 255, 0.611);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumblue;
+    text-align: center;
+    display: inline-block;
+    width: 60vh;
+    text-align: justify;
+    padding-right: 1vh;
+    padding-left: 1vh;
+}
+.signares{
+    width: 50vh;
+    height: 40vh;
+    margin-top: -14vh;
+    margin-left: 10vh;
+   
+}
+.text2{
+    display:flex;
+    width: 170vh;
+    height: 10vh;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    gap: 1vh;
+}
+.text2 h5{
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumblue;
+    text-align: center;
+    display: inline-block; 
+    padding-left: 2vh;
+    margin-left: 51vh;
+    width: 15vh;
+    line-height: 10vh;
+}
+.text2 h6{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumblue;
+    text-align: center;
+    display: inline-block;
+    width: 75vh;
+    text-align: justify;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    background-color: beige;
+}
+.shopping{
+    width: 50vh;
+    height: 40vh;
+    margin-top: -14vh;
+    margin-left: 10vh;
+}
+ /*footer css*/
+#footer{
+    background-color: black;
+    height: 15vh;
+    position: relative;
+    margin-top: 2vh;
+}
+#imag{
+    height: 15vh;
+    display: flex;
+    gap: 5vh;
+}
+#imag img{
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 2vh;
+    gap: 5vh;
+}
+#imag h3{
+    width: 100vh;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 40vh;
+    padding-top: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: Arial Bold, sans-serif;
+    text-align: center;
+}
+#imag h4{
+    width: 100vh;
+    height: 5vh;
+    margin-top: 4vh;
+    margin-left: 40vh;
+    padding-top: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: Arial Bold, sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and(max-width:1500px) {
+    .menu{
+        width: auto;
+    }
+    .nav{
+        width:auto;
+    }
+}
+body{
+    background-image: url(img/gorée\ crepuscule.jpg); 
+    -webkit-background-size:"cover";
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    margin-top: -8vh;
+}
+.menu{
+    text-align: center;
+    margin-left: 550px;
+    padding-left: 30px;
+    width: 200px;
+}
+.menu ul{
+list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    background-color: maroon;
+    width: 150px;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+img{
+    width: 55px;
+    height: 50px;
+    display: flex;
+}
+.snlogo{
+    width: 100px;
+    margin-left: 75vh;
+}
+             /*evenements  css*/
+#gorée3{
+    width: 15vh;
+    margin-top: 8vh;
+    margin-left: 90vh;
+}
+#gorée3 img{
+    width: 100px;
+    height: 100px;
+}
+#images img{
+    width: 50vh;
+    height: 30vh;
+    margin-left: 70vh;
+    margin-top: 5vh;
+}
+.texte{
+    background-color:antiquewhite;
+    width: 50vh;
+    margin-top: 1vh;
+    font-size: 15px;
+    margin-left: 70vh;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+}
+.texte a{
+    color: #180dbf;
+}
+ /*footer css*/
+#footer{
+    background-color: black;
+    height: 15vh;
+    position: relative;
+    margin-top: 2vh;
+}
+#imag{
+    height: 15vh;
+    display: flex;
+    gap: 5vh;
+}
+#imag img{
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 2vh;
+    gap: 5vh;
+}
+#imag h3{
+    width: 100vh;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 40vh;
+    padding-top: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: Arial Bold, sans-serif;
+    text-align: center;
+}
+#imag h4{
+    width: 100vh;
+    height: 5vh;
+    margin-top: 4vh;
+    margin-left: 40vh;
+    padding-top: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: Arial Bold, sans-serif;
+    text-align: center;
+}

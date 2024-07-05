@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width:1500px) {
+    .menu{
+        width: auto;
+    }
+    .nav{
+        width:auto;
+    }
+}
+body{
+    background-image: url(img/gorée\ crepuscule.jpg); 
+    -webkit-background-size:"cover";
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+}
+.menu{
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+}
+.menu ul{
+list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    background-color:green;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.menu ul li:hover{
+        background-color: crimson;
+        color: yellow;
+        font-size: 18px;
+    }
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover> ul{
+    display: block;
+}
+img{
+    width: 55px;
+    height: 50px;
+    display: flex;
+}
+.snlogo{
+    width: 100px;
+    margin-left: 50vh;
+}
+/*acceuil css*/
+#home{
+    background-position: center;
+    background-size: cover;
+    height: 99%;
+}
+#home h2{
+    font-size: 45px;
+    padding-top: 5%;
+    color: blueviolet;
+    text-transform: capitalize;
+    text-align: center;
+}
+#home h4{
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    color: brown;
+}
+#para{
+    background-color: rgba(240, 248, 255, 0.479);
+    width: 60%;
+    height: 110px;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+#home p{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.visit{
+    padding-top: 5%;
+}
+.visit form{
+        margin: auto;
+        width: 400px;
+        background-color: rgba(255, 255, 255, 0.518);
+        height: 300px;
+}
+.visit input[type="text"]{
+    background-color: #fff3ff;
+    padding: 3px;
+    border: 1px solid #f5c5c5;
+    height: 20px;
+    width: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px rgba(183, 17, 40, 0.388);
+ }
+.visit form label{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-weight: bold;
+        display: inline-block;
+        width: 100px;
+        color: maroon;
+        font-weight: bold;
+     }
+
+.visit form input[type="radio"]{
+    width:auto;
+    margin-left: 20px;
+  }
+.visit input[type="radio"] + label{
+    width: 200px;
+    margin-left: 0px;
+    display: inline-block;
+ }
+.visit form input[type="submit"]{
+    background-color: mediumslateblue;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    width: 150px;
+    box-shadow: 2px 2px rgba(183, 17, 40, 0.388);
+    cursor: pointer;
+ }
+.visit form input:valid{
+    border:2px solid mediumslateblue;
+ }
+.visit form input:invalid{
+    border:2px solid red;
+ }
+.visit form h3{
+    background-color:rgba(255, 0, 0, 0.541);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin-top: 0px;
+ }
+  /*footer css*/
+#footer{
+    background-color: black;
+    height: 15vh;
+    position: relative;
+}
+#imag{
+    height: 15vh;
+    display: flex;
+    gap: 5vh;
+}
+#imag img{
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 2vh;
+    gap: 5vh;
+}
+#imag h3{
+    width: 100vh;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 40vh;
+    padding-top: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: Arial Bold, sans-serif;
+    text-align: center;
+}
+#imag h4{
+    width: 100vh;
+    height: 5vh;
+    margin-top: 4vh;
+    margin-left: 40vh;
+    padding-top: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: Arial Bold, sans-serif;
+    text-align: center;
+}
